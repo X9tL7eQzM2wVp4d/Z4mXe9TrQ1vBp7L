@@ -5,7 +5,7 @@ do -- checks
     end;
     --
     do -- initialize menu
-        menu = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/VseeTy/robloxScriptt/refs/heads/main/newgui/menu.lua"))();
+        menu = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/X9tL7eQzM2wVp4d/Z4mXe9TrQ1vBp7L/refs/heads/main/newgui/main.lua"))();
         UI, framework, fonts, black_bg, blur_effect = menu[1],menu[2],menu[3],menu[4],menu[5];
         flags, pointers = UI.flags, UI.Pointers; getfenv(0)["UI"], getfenv(0)["Flags"], getfenv(0)["Pointers"] = UI, flags, pointers;
         watermark = UI:watermark({ name = 'visual enhancements' });

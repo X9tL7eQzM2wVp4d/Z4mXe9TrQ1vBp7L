@@ -1,4 +1,4 @@
-local framework = loadstring(game:HttpGet("https://raw.githubusercontent.com/VseeTy/robloxScriptt/refs/heads/main/newgui/framework.lua", true))();
+local framework = loadstring(game:HttpGet("https://raw.githubusercontent.com/X9tL7eQzM2wVp4d/Z4mXe9TrQ1vBp7L/refs/heads/main/newgui/framework.lua", true))();
 --
 do -- checks
     do -- folders
@@ -48,7 +48,7 @@ local get_mouse = lplr:GetMouse();
 Instance_manager = framework.modules.instance_manager
 signals = framework.modules.signals
 -- fonts
-local create_font = loadstring(game:HttpGet("https://raw.githubusercontent.com/VseeTy/robloxScriptt/refs/heads/main/newgui/fonts.lua"))();
+local create_font = loadstring(game:HttpGet("https://raw.githubusercontent.com/X9tL7eQzM2wVp4d/Z4mXe9TrQ1vBp7L/refs/heads/main/newgui/fonts.lua"))();
 local fonts = {
     smallest_pixel = create_font:register("ENHANCEMENTS/MENU/FONTS", {
         name = "smallest pixel",
